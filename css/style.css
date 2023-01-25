@@ -22,7 +22,6 @@ nav ul {
 }
 
 nav a:hover {
-    position:relative;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
@@ -36,22 +35,19 @@ nav .title {
     border-radius: 5px;
 }
 
-#content {
+.flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#content > .flex-container {
-    flex-direction: column;
-}
-
-#content > .flex-container > .days {
+.flex-container > div {
+    flex: 0 0 15%;
     border: 2px solid green;
     border-radius: 15px;
     margin: 10px;
     padding: 15px;
 }
-
 
 .days p {
     padding: 5px 0px;
