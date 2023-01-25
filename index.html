@@ -7,42 +7,48 @@
     </head>
 
     <body>
-        <div class="title">
-            <h1>The Coding Journey</h1>
-            <a href="./pages/about.html">About this journey</a>
-        </div>
+        <nav style="border-bottom: 2px solid black; border-radius: 10px;">   
+            <ul>
+                <li class="title">Coding Journey</li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
 
         <div id="content">
-            <div class="day1 days">
-                <h2>Day 1: Jan 9, 2023</h2>
-                <p>Learned how to use the command line along with git!</p>
-            </div>
-            
-            <div class="day2 days">
-                <h2>Day 2: Jan 10, 2023 - <a href="./pictures/1-10-2023.png"><button>Picture</button></a></h2>
-                <p>Learned HTML tags like <strong>"strong"</strong> and <em>"em" (emphasis)</em></p>
-                <p>Started the HTML recipe project, and learned about unordered/ordered lists, images with alternate text,
+            <div class="flex-container">
+                <div class="day_1 days">
+                    <h2>Day 1: Jan 9, 2023</h2>
+                    <p>Learned how to use the command line along with git!</p>
+                </div>
+
+                <div class="day_2 days">
+                    <h2>Jan 10, 2023 - <a href="./pictures/1-10-2023.png"><button>Picture</button></a></h2>
+                    <p>Learned HTML tags like <strong>"strong"</strong> and <em>"em" (emphasis)</em></p>
+                    <p>Started the HTML recipe project, and learned about unordered/ordered lists, images with alternate text,
                     relative/absolute links with the anchor tag. <em>Demonstrated Below</em></p>
 
-                <ol>
-                    <li>Progress in <a href="https://www.theodinproject.com/about"><em>The Odin Project</em></a></li>
-                    <li>Watch anime</li>
-                    <li>Eat good food</li>
-                </ol>
+                    <ol>
+                        <li>Progress in <a href="https://www.theodinproject.com/about"><em>The Odin Project</em></a></li>
+                        <li>Watch anime</li>
+                        <li>Eat good food</li>
+                    </ol>
 
-                <ul>
-                    <li>Japan</li>
-                    <li>Korea</li>
-                    <li>Singapore</li>
-                </ul>
-                <img src="./images/mtfuji.webp" alt="Picture of Mountain Fuji, Located in Japan">
-            </div>
-            
-            <div class="day3 days">
-                <h2>Day 3: Jan 11, 2023 - <a href="./pictures/1-11-2023.png"><button>Picture</button></a></h2>
-                <p>Finished the HTML project and uploaded to github using git commit/push</p>
-                <p>Finished the CSS section of the Odin Project which includes display block/inline block, padding/margin/border 
+                    <ul>
+                        <li>Japan</li>
+                        <li>Korea</li>
+                        <li>Singapore</li>
+                    </ul>
+                    <img src="./images/mtfuji.webp" alt="Picture of Mountain Fuji, Located in Japan" style="width:150px; height: 150px; margin-left: 150px;">
+                </div>
+
+                <div class="day_3 days">
+                    <h2>Jan 11, 2023 - <a href="./pictures/1-11-2023.png"><button>Picture</button></a></h2>
+                    <p>Finished the HTML project and uploaded to github using git commit/push</p>
+                    <p>Finished the CSS section of the Odin Project which includes display block/inline block, padding/margin/border 
                     and applied some to the website along with div containers.</p>
+                </div>
             </div>
         </div>    
 
